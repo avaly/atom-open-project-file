@@ -1,0 +1,35 @@
+{
+  "name": "open-project-file",
+  "main": "./lib/open-project-file",
+  "version": "1.0.0",
+  "description": "Atom package: Open project file under cursor",
+  "keywords": [
+    "atom",
+    "package",
+    "open",
+    "file",
+    "project",
+    "cursor"
+  ],
+  "activationCommands": {
+    "atom-workspace": "open-project-file:open"
+  },
+  "repository": "https://github.com/avaly/atom-open-project-file",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.5.0",
+    "season": "^5.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

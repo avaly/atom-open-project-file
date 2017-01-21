@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Open Project File Under Cursor",
+        "command": "open-project-file:open"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Open Project File",
+          "submenu": [
+            {
+              "label": "Open File Under Cursor",
+              "command": "open-project-file:open"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
