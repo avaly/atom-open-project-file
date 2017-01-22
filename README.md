@@ -1,6 +1,10 @@
-# atom-open-project-file
+# open-project-file
 
-Open file under cursor in editor. It handles opening:
+Open file under cursor in Atom.
+
+![Demo Screencast](https://raw.github.com/avaly/atom-open-project-file/master/docs/screencast.gif)
+
+It handles opening:
 
 - files using relative paths:
 
@@ -57,3 +61,9 @@ Keymaps:
 Commands:
 
 - `open-project-file:open`: Opens file under cursor
+
+## Credits
+
+Inspired by:
+- https://atom.io/packages/open-this
+- https://atom.io/packages/open-sesame
