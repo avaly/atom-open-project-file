@@ -20,6 +20,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "scripts": {
+    "precommit": "npm test",
     "lint": "eslint .",
     "test": "npm run lint"
   },
@@ -30,6 +31,7 @@
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "eslint": "^3.14.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "husky": "^0.13.0"
   }
 }
