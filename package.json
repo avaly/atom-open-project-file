@@ -1,7 +1,7 @@
 {
   "name": "open-project-file",
   "main": "./lib/open-project-file",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Atom package: Open project file under cursor",
   "keywords": [
     "atom",
