@@ -1,5 +1,11 @@
 # open-project-file
 
+[![apm](https://img.shields.io/apm/l/open-project-file.svg?style=flat-square)](https://atom.io/packages/open-project-file)
+[![apm](https://img.shields.io/apm/v/open-project-file.svg?style=flat-square)](https://atom.io/packages/open-project-file)
+[![apm](https://img.shields.io/apm/dm/open-project-file.svg?style=flat-square)](https://atom.io/packages/open-project-file)
+[![ci](https://img.shields.io/circleci/project/github/avaly/atom-open-project-file.svg?style=flat-square)](https://circleci.com/gh/avaly/atom-open-project-file)
+[![dependencies](https://img.shields.io/david/avaly/atom-open-project-file.svg?style=flat-square)](https://david-dm.org/avaly/atom-open-project-file)
+
 Open file under cursor in Atom.
 
 ![Demo Screencast](https://raw.github.com/avaly/atom-open-project-file/master/docs/screencast.gif)
@@ -42,7 +48,7 @@ import test from 'sub/dir/bar';
 // -> /path/to/other/sub/dir/bar.js
 ```
 
-Useful for projects setting up custom path resolving (e.g. using webpack).
+Useful for projects which use custom path resolving (e.g. using [webpack](https://webpack.js.org/configuration/resolve/#resolve-modules)).
 
 ## Install
 
