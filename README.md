@@ -1,5 +1,7 @@
 # open-project-file
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/avaly/atom-open-project-file.svg)](https://greenkeeper.io/)
+
 [![apm](https://img.shields.io/apm/l/open-project-file.svg?style=flat-square)](https://atom.io/packages/open-project-file)
 [![apm](https://img.shields.io/apm/v/open-project-file.svg?style=flat-square)](https://atom.io/packages/open-project-file)
 [![apm](https://img.shields.io/apm/dm/open-project-file.svg?style=flat-square)](https://atom.io/packages/open-project-file)
